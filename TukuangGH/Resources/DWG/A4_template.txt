@@ -1,0 +1,36 @@
+# Sample A4 Frame Template
+
+This file represents a template for A4 paper frame (210 × 297 mm).
+
+## Frame Components
+
+### Outer Border
+- Rectangle from (0,0) to (210,297)
+
+### Inner Margin  
+- Rectangle from (10,10) to (200,287)
+- 10mm margin from all edges
+
+### Title Block
+- Rectangle from (157,0) to (210,44)
+- Size: 53mm × 44mm (approximately 25% × 15% of page)
+
+### Title Block Subdivisions
+- Horizontal lines at y=11, 22, 33
+- Vertical line at x=183.5 (middle of title block)
+
+### Revision Triangle
+- Triangle at top-right corner
+- Points: (190,297), (210,297), (210,277)
+
+### Measurement Marks
+- Marks every 100mm along edges
+- Bottom edge: marks at x=100, 200
+- Top edge: marks at x=100, 200
+- Left edge: marks at y=100, 200
+- Right edge: marks at y=100, 200
+- Mark size: 5mm
+
+## Usage
+Place this template as "A4.dwg" or "A4.3dm" in the Resources/DWG folder.
+The component will automatically load and use this template for A4 frames.
