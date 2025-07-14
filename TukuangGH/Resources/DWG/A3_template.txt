@@ -1,0 +1,36 @@
+# Sample A3 Frame Template
+
+This file represents a template for A3 paper frame (297 × 420 mm).
+
+## Frame Components
+
+### Outer Border
+- Rectangle from (0,0) to (297,420)
+
+### Inner Margin  
+- Rectangle from (10,10) to (287,410)
+- 10mm margin from all edges
+
+### Title Block
+- Rectangle from (222,0) to (297,63)
+- Size: 75mm × 63mm (approximately 25% × 15% of page)
+
+### Title Block Subdivisions
+- Horizontal lines at y=15.75, 31.5, 47.25
+- Vertical line at x=259.5 (middle of title block)
+
+### Revision Triangle
+- Triangle at top-right corner
+- Points: (277,420), (297,420), (297,400)
+
+### Measurement Marks
+- Marks every 100mm along edges
+- Bottom edge: marks at x=100, 200
+- Top edge: marks at x=100, 200  
+- Left edge: marks at y=100, 200, 300, 400
+- Right edge: marks at y=100, 200, 300, 400
+- Mark size: 5mm
+
+## Usage
+Place this template as "A3.dwg" or "A3.3dm" in the Resources/DWG folder.
+The component will automatically load and use this template for A3 frames.
